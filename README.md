@@ -129,7 +129,7 @@ Not sure where it fits? Open an Issue or Discussion — we’ll help!
 
 ## Star History & Community
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/awesome-agentic-commerce&type=Date)](https://star-history.com/#YOUR_USERNAME/awesome-agentic-commerce&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=GOATNetwork/awesome-agentic-commerce&type=Date)](https://star-history.com/#YOUR_USERNAME/awesome-agentic-commerce&Date)
 
 **Made with ❤️ by the agentic commerce community**
 
