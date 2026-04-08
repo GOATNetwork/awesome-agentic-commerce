@@ -84,10 +84,31 @@ Think: “Buy me the best noise-cancelling headphones under $300 that ship in 2 
 
 ## Case Studies & Real-World Examples
 
-- Personal shopping agents already live on X / Reddit / Discord
-- Autonomous B2B procurement agents
-- AI-powered dynamic pricing agents
-- Negotiation bots that closed real deals
+### Consumer-Facing Agentic Commerce
+
+- **[OpenAI Instant Checkout + ACP in ChatGPT](https://openai.com/index/buy-it-in-chatgpt/)** — Users describe what they want, the agent researches across the web, surfaces products from Etsy/Shopify merchants, and completes the full purchase *inside the chat* via Stripe-powered Instant Checkout. OpenAI open-sourced the [Agentic Commerce Protocol (ACP)](https://developers.openai.com/commerce) for broader adoption.
+- **[Google Gemini "Buy for Me" / Agentic Checkout](https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/)** — Describe needs in plain language, and the agent searches Walmart, Wayfair, Target, Shopify, etc., checks real-time inventory/pricing/loyalty offers, and executes purchases with Google Pay. Powered by the [Universal Commerce Protocol (UCP)](https://developers.google.com/merchant/ucp).
+- **[Walmart + Google Gemini Full Shopping Experience](https://corporate.walmart.com/news/2026/01/11/walmart-and-google-turn-ai-discovery-into-effortless-shopping-experiences)** — Walmart co-developed the UCP open standard with Shopify, Etsy, Target, and Wayfair. End-to-end shopping (discovery → comparison → basket → checkout) entirely inside Google Gemini.
+- **[Perplexity "Buy with Pro"](https://www.perplexity.ai/hub/blog/buy-with-pro)** — AI search → personalized recommendations → one-click in-chat checkout directly in Perplexity. PayPal handles payments/merchant-of-record duties; free shipping on eligible orders.
+- **[Crossmint Telegram Shopping Agents](https://blog.crossmint.com/agentic-commerce-use-cases/)** — Text a need in Telegram, the agent autonomously searches, compares options across catalogs, presents matches, and completes checkout with one tap (credit card, ACH, or stablecoins).
+- **[Anthropic Claude as AI Travel Agent (Crossmint MCP)](https://blog.crossmint.com/agentic-commerce-use-cases/)** — Natural-language conversation to research, compare, and book flights autonomously via Crossmint payments (USDC on Solana or cards).
+- **[Flight Deal Sniper Agents (Crossmint-powered)](https://blog.crossmint.com/agentic-commerce-use-cases/)** — Set criteria (e.g., "NYC–London under $400, max 1 stop"). The agent monitors daily price changes across platforms and auto-purchases when thresholds are met.
+- **[Amazon Rufus AI Shopping Assistant](https://www.aboutamazon.com/news/retail/amazon-rufus)** — Conversational agent inside the Amazon app/site that researches products, answers complex queries, and drives purchases. Early reports suggest meaningfully higher conversion rates among Rufus users.
+
+### Merchant & Operations Agents
+
+- **[Walmart Agentic Super Agents](https://corporate.walmart.com/news/2025/07/24/retail-rewired)** — Includes autonomous inventory agents using computer vision/shelf sensors that trigger restocking with zero human steps, and predictive shipping agents that forward-deploy stock before orders arrive. Early pilots report significant reductions in stockouts and faster same-day delivery.
+- **[Sephora Digital Beauty Consultant](https://www.sephora.com/beauty/virtual-artist)** — In-store/app agents scan skin tone/products and autonomously suggest routines + virtual try-ons with real-time personalization.
+- **[H&M AI-Powered Retail Optimization](https://ctomagazine.com/ai-at-hm-the-tech-strategy-behind-its-transformation/)** — AI agents analyze customer interactions and sales data, delivering personalized outreach and inventory optimization. Reported improvements in basket size and conversion rates.
+- **[eBay Mercury Platform](https://tech.ebayinc.com/)** — Real-time personalized shopping guidance and recommendation agents that act across browsing sessions.
+
+### Protocols & Infrastructure
+
+- **[OpenAI Agentic Commerce Protocol (ACP)](https://developers.openai.com/commerce)** — Open protocol enabling AI agents to discover, compare, and transact with merchants
+- **[Google Universal Commerce Protocol (UCP)](https://developers.google.com/merchant/ucp/)** — Open standard co-developed with Walmart, Shopify, Etsy, Target, and Wayfair for agent-driven commerce
+- **[x402 Payment Protocol](https://www.x402.org/)** — HTTP-native micropayment protocol using the `402 Payment Required` status code, enabling agents to pay for API calls, content, and services programmatically with stablecoins — no API keys or subscriptions needed
+- **Machine Payments / Autonomous Agent Wallets** — Infrastructure for machine-to-machine payments where AI agents hold wallets, authorize transactions, and settle payments autonomously (e.g., [Crossmint agent wallets](https://blog.crossmint.com/embedded-agent-wallets/), [Coinbase AgentKit](https://github.com/coinbase/agentkit), [Stripe agent payments](https://docs.stripe.com/))
+
 - **[Add your case study or experiment here via PR!](#contributing)**
 
 ---
