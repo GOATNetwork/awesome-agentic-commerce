@@ -99,7 +99,7 @@ Think: “Buy me the best noise-cancelling headphones under $300 that ship in 2 
 
 - **[Walmart Agentic Super Agents](https://corporate.walmart.com/news/2025/07/24/retail-rewired)** — Includes autonomous inventory agents using computer vision/shelf sensors that trigger restocking with zero human steps, and predictive shipping agents that forward-deploy stock before orders arrive. Early pilots report significant reductions in stockouts and faster same-day delivery.
 - **[Sephora Digital Beauty Consultant](https://www.sephora.com/beauty/virtual-artist)** — In-store/app agents scan skin tone/products and autonomously suggest routines + virtual try-ons with real-time personalization.
-- **[H&M AI-Powered Retail Optimization](https://www.gobeyond.ai/ai-resources/case-studies/hm-ai-agents-customer-engagement-sales-performance)** — AI agents analyze customer interactions and sales data, delivering personalized outreach and inventory optimization. Reported improvements in basket size and conversion rates.
+- **[H&M AI-Powered Retail Optimization](https://ctomagazine.com/ai-at-hm-the-tech-strategy-behind-its-transformation/)** — AI agents analyze customer interactions and sales data, delivering personalized outreach and inventory optimization. Reported improvements in basket size and conversion rates.
 - **[eBay Mercury Platform](https://tech.ebayinc.com/)** — Real-time personalized shopping guidance and recommendation agents that act across browsing sessions.
 
 ### Protocols & Infrastructure
