@@ -86,8 +86,8 @@ Think: “Buy me the best noise-cancelling headphones under $300 that ship in 2 
 
 ### Consumer-Facing Agentic Commerce
 
-- **[OpenAI Instant Checkout + ACP in ChatGPT](https://openai.com/index/introducing-shopping-in-chatgpt/)** — Users describe what they want, the agent researches across the web, surfaces products from Etsy/Shopify merchants, and completes the full purchase *inside the chat* via Stripe-powered Instant Checkout. OpenAI open-sourced the [Agentic Commerce Protocol (ACP)](https://openai.com/index/agentic-commerce-protocol/) for broader adoption.
-- **[Google Gemini "Buy for Me" / Agentic Checkout](https://blog.google/products/gemini/buy-for-me/)** — Describe needs in plain language, and the agent searches Walmart, Wayfair, Target, Shopify, etc., checks real-time inventory/pricing/loyalty offers, and executes purchases with Google Pay. Powered by the [Universal Commerce Protocol (UCP)](https://developers.google.com/commerce/universal-commerce-protocol).
+- **[OpenAI Instant Checkout + ACP in ChatGPT](https://openai.com/index/introducing-shopping-in-chatgpt/)** — Users describe what they want, the agent researches across the web, surfaces products from Etsy/Shopify merchants, and completes the full purchase *inside the chat* via Stripe-powered Instant Checkout. OpenAI open-sourced the [Agentic Commerce Protocol (ACP)](https://developers.openai.com/commerce) for broader adoption.
+- **[Google Gemini "Buy for Me" / Agentic Checkout](https://blog.google/products/gemini/buy-for-me/)** — Describe needs in plain language, and the agent searches Walmart, Wayfair, Target, Shopify, etc., checks real-time inventory/pricing/loyalty offers, and executes purchases with Google Pay. Powered by the [Universal Commerce Protocol (UCP)](https://developers.google.com/merchant/ucp).
 - **[Walmart + Google Gemini Full Shopping Experience](https://corporate.walmart.com/news/2025/04/09/walmart-joins-google-in-launching-universal-commerce-protocol)** — Walmart co-developed the UCP open standard with Shopify, Etsy, Target, and Wayfair. End-to-end shopping (discovery → comparison → basket → checkout) entirely inside Google Gemini.
 - **[Perplexity "Buy with Pro"](https://www.perplexity.ai/hub/blog/buy-with-pro)** — AI search → personalized recommendations → one-click in-chat checkout directly in Perplexity. PayPal handles payments/merchant-of-record duties; free shipping on eligible orders.
 - **[Crossmint Telegram Shopping Agents](https://www.crossmint.com/blog/agentic-commerce)** — Text a need in Telegram, the agent autonomously searches, compares options across catalogs, presents matches, and completes checkout with one tap (credit card, ACH, or stablecoins).
@@ -104,8 +104,8 @@ Think: “Buy me the best noise-cancelling headphones under $300 that ship in 2 
 
 ### Protocols & Infrastructure
 
-- **[OpenAI Agentic Commerce Protocol (ACP)](https://openai.com/index/agentic-commerce-protocol/)** — Open protocol enabling AI agents to discover, compare, and transact with merchants
-- **[Google Universal Commerce Protocol (UCP)](https://developers.google.com/commerce/universal-commerce-protocol/)** — Open standard co-developed with Walmart, Shopify, Etsy, Target, and Wayfair for agent-driven commerce
+- **[OpenAI Agentic Commerce Protocol (ACP)](https://developers.openai.com/commerce)** — Open protocol enabling AI agents to discover, compare, and transact with merchants
+- **[Google Universal Commerce Protocol (UCP)](https://developers.google.com/merchant/ucp/)** — Open standard co-developed with Walmart, Shopify, Etsy, Target, and Wayfair for agent-driven commerce
 - **[x402 Payment Protocol](https://www.x402.org/)** — HTTP-native micropayment protocol using the `402 Payment Required` status code, enabling agents to pay for API calls, content, and services programmatically with stablecoins — no API keys or subscriptions needed
 - **Machine Payments / Autonomous Agent Wallets** — Infrastructure for machine-to-machine payments where AI agents hold wallets, authorize transactions, and settle payments autonomously (e.g., [Crossmint agent wallets](https://www.crossmint.com/blog/agentic-commerce), [Coinbase AgentKit](https://github.com/coinbase/agentkit), [Stripe agent payments](https://docs.stripe.com/))
 
