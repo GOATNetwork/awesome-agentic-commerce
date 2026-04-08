@@ -129,6 +129,8 @@ Not sure where it fits? Open an Issue or Discussion — we’ll help!
 
 ## Star History & Community
 
+[![Telegram](https://img.shields.io/badge/Telegram-Join%20Chat-blue?logo=telegram)](https://t.me/goatbuilderhub)
+
 [![Star History Chart](https://api.star-history.com/svg?repos=GOATNetwork/awesome-agentic-commerce&type=Date)](https://star-history.com/#GOATNetwork/awesome-agentic-commerce&Date)
 
 **Made with ❤️ by the agentic commerce community**
@@ -142,4 +144,5 @@ This repository is licensed under the [Creative Commons Zero v1.0 Universal](htt
 ---
 
 **Ready to shape the future of commerce?**  
-Drop your first idea in a PR today! 🚀
+🛠️ **Build your first agent today** — pick a pattern from [Core Ideas](#core-ideas--patterns), grab a tool from [Frameworks](#tools--frameworks), and ship it.  
+Then drop your experiment in a PR and join the community on [Telegram](https://t.me/goatbuilderhub)! 🚀
