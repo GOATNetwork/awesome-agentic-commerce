@@ -129,7 +129,7 @@ Not sure where it fits? Open an Issue or Discussion — we’ll help!
 
 ## Star History & Community
 
-[![Telegram](https://img.shields.io/badge/Telegram-Join%20Chat-blue?logo=telegram)](https://t.me/goatbuilderhub) [![X (Twitter)](https://img.shields.io/badge/@clawup-Follow-black?logo=x)](https://x.com/clawup)
+[![Telegram](https://img.shields.io/badge/Telegram-Join%20Chat-blue?logo=telegram)](https://t.me/goatbuilderhub) [![Telegram](https://img.shields.io/badge/@clawup-Join%20Channel-blue?logo=telegram)](https://t.me/clawup)
 
 [![Star History Chart](https://api.star-history.com/svg?repos=GOATNetwork/awesome-agentic-commerce&type=Date)](https://star-history.com/#GOATNetwork/awesome-agentic-commerce&Date)
 
