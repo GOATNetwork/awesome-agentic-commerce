@@ -106,6 +106,8 @@ Think: “Buy me the best noise-cancelling headphones under $300 that ship in 2 
 
 - **[OpenAI Agentic Commerce Protocol (ACP)](https://openai.com/index/agentic-commerce-protocol/)** — Open protocol enabling AI agents to discover, compare, and transact with merchants
 - **[Google Universal Commerce Protocol (UCP)](https://developers.google.com/commerce/universal-commerce-protocol/)** — Open standard co-developed with Walmart, Shopify, Etsy, Target, and Wayfair for agent-driven commerce
+- **[x402 Payment Protocol](https://www.x402.org/)** — HTTP-native micropayment protocol using the `402 Payment Required` status code, enabling agents to pay for API calls, content, and services programmatically with stablecoins — no API keys or subscriptions needed
+- **Machine Payments / Autonomous Agent Wallets** — Infrastructure for machine-to-machine payments where AI agents hold wallets, authorize transactions, and settle payments autonomously (e.g., Crossmint agent wallets, Coinbase AgentKit, Stripe agent payments)
 
 - **[Add your case study or experiment here via PR!](#contributing)**
 
