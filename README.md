@@ -84,10 +84,29 @@ Think: “Buy me the best noise-cancelling headphones under $300 that ship in 2 
 
 ## Case Studies & Real-World Examples
 
-- Personal shopping agents already live on X / Reddit / Discord
-- Autonomous B2B procurement agents
-- AI-powered dynamic pricing agents
-- Negotiation bots that closed real deals
+### Consumer-Facing Agentic Commerce
+
+- **OpenAI Instant Checkout + ACP in ChatGPT** — Users describe what they want, the agent researches across the web, surfaces products from Etsy/Shopify merchants (Glossier, SKIMS, Spanx, etc.), and completes the full purchase *inside the chat* via Stripe-powered Instant Checkout. No redirects needed. OpenAI open-sourced the [Agentic Commerce Protocol (ACP)](https://openai.com/index/agentic-commerce-protocol/) for broader adoption.
+- **Google Gemini "Buy for Me" / Agentic Checkout (UCP)** — Describe needs in plain language, and the agent searches Walmart, Wayfair, Target, Shopify, etc., checks real-time inventory/pricing/loyalty offers, and executes purchases with Google Pay. Includes price tracking + auto-buy triggers. Powered by the [Universal Commerce Protocol (UCP)](https://developers.google.com/commerce/universal-commerce-protocol).
+- **Walmart + Google Gemini Full Shopping Experience** — Walmart co-developed the UCP open standard with Shopify, Etsy, Target, and Wayfair. End-to-end shopping (discovery → comparison → basket → checkout) entirely inside Google Gemini. Walmart's internal "Sparky" shopper agent handles real-time inventory and predictive logistics.
+- **Perplexity "Buy with Pro" (PayPal-powered)** — Pro users get AI search → personalized recommendations → one-click in-chat checkout directly in Perplexity (or its Comet browser). PayPal handles payments/merchant-of-record duties; free shipping on eligible orders. High-intent shopping flow with memory of past searches.
+- **Crossmint Telegram Shopping Agents** — Text a need in Telegram, the agent autonomously searches, compares options across catalogs, presents matches, and completes checkout with one tap (credit card, ACH, or stablecoins). Deployed live for various merchants; setup in under an hour.
+- **Anthropic Claude as AI Travel Agent (Crossmint MCP)** — Natural-language conversation to research, compare, and book flights autonomously via Crossmint payments (USDC on Solana or cards). Live and working today.
+- **Flight Deal Sniper Agents (Crossmint-powered)** — Set criteria (e.g., "NYC–London under $400, max 1 stop"). The agent monitors 100+ daily price changes across platforms 24/7 and auto-purchases when thresholds are met. Fully autonomous deal execution.
+- **Amazon Rufus AI Shopping Assistant** — Conversational agent inside the Amazon app/site that researches products, answers complex queries, and drives purchases. Users who engage with Rufus are ~60% more likely to buy and convert at nearly 4× the rate of non-users.
+
+### Merchant & Operations Agents
+
+- **Walmart Agentic Super Agents (Inventory + Operations)** — Includes "Marty" supplier agent, autonomous inventory agents using computer vision/shelf sensors that trigger restocking with zero human steps, and predictive shipping agents that forward-deploy stock before orders arrive. Pilot results: 30% fewer stockouts; 30% faster same-day delivery.
+- **Sephora Digital Beauty Consultant** — In-store/app agents scan skin tone/products and autonomously suggest routines + virtual try-ons with real-time personalization.
+- **H&M Agentic Layout & Virtual Assistant** — Tracks foot traffic/purchases and auto-optimizes store merchandising while handling shopping/returns. Results: 17–25% basket size/conversion lifts.
+- **eBay Mercury Platform** — Real-time personalized shopping guidance and recommendation agents that act across browsing sessions.
+
+### Protocols & Infrastructure
+
+- **[OpenAI Agentic Commerce Protocol (ACP)](https://openai.com/index/agentic-commerce-protocol/)** — Open protocol enabling AI agents to discover, compare, and transact with merchants
+- **[Google Universal Commerce Protocol (UCP)](https://developers.google.com/commerce/universal-commerce-protocol/)** — Open standard co-developed with Walmart, Shopify, Etsy, Target, and Wayfair for agent-driven commerce
+
 - **[Add your case study or experiment here via PR!](#contributing)**
 
 ---
