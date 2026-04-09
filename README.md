@@ -78,6 +78,8 @@ Think: “Buy me the best noise-cancelling headphones under $300 that ship in 2 
 - **Anthropic Computer Use** + commerce APIs
 - **Blockchain / Payment agents** (Crossmint, Stripe Agents, etc.)
 - **Protocol layer** (e.g. Agentic Commerce Protocol proposals)
+- **[Agent Payments Landscape](https://github.com/goodmeta/agent-payments-landscape)** – Living comparison of AP2, ACP, x402, MPP, and UCP across authorization, commerce, and settlement layers. Verified sources, protocol stack diagram.
+- **[Agent Verifier](https://github.com/goodmeta/agent-verifier)** – Spending verification for AI agents. Policy-based constraints, AP2 mandate validation, and budget enforcement. TypeScript, npm published.
 - **[Add your favorite tool here via PR!](#contributing)**
 
 ---
