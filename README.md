@@ -112,6 +112,7 @@ Think: “Buy me the best noise-cancelling headphones under $300 that ship in 2 
 - **Machine Payments / Autonomous Agent Wallets** — Infrastructure for machine-to-machine payments where AI agents hold wallets, authorize transactions, and settle payments autonomously (e.g., [Crossmint agent wallets](https://blog.crossmint.com/embedded-agent-wallets/), [Coinbase AgentKit](https://github.com/coinbase/agentkit), [Stripe agent payments](https://docs.stripe.com/))
 
 - **[Add your case study or experiment here via PR!](#contributing)**
+- **[Vedetta](https://vedetta.dethboy.com)** — Live x402 deployment: pay-per-call market intelligence for AI agents, based on Korra (korra.finance). 20 endpoints (sentiment-vs-price divergence, predictions, screeners, market pulse) across crypto, US equities, and macro; $0.005–$0.09 USDC per call on Base or Solana, no signup or API keys. Descriptive research, not financial advice.
 
 ---
 
