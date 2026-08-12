@@ -81,6 +81,7 @@ Think: “Buy me the best noise-cancelling headphones under $300 that ship in 2 
 - **[Agent Payments Landscape](https://github.com/goodmeta/agent-payments-landscape)** – Living comparison of AP2, ACP, x402, MPP, and UCP across authorization, commerce, and settlement layers. Verified sources, protocol stack diagram.
 - **[Agent Verifier](https://github.com/goodmeta/agent-verifier)** – Spending verification for AI agents. Policy-based constraints, AP2 mandate validation, and budget enforcement. TypeScript, npm published.
 - **[Add your favorite tool here via PR!](#contributing)**
+- **[stipend](https://github.com/stipend-sh/stipend)** – Non-custodial USDC wallet on Base an AI agent installs by itself. Per-transaction, per-day and per-counterparty caps plus a destination allowlist are enforced in code between deciding and signing, so no instruction in the context window can raise them. Buyer-side x402 auto-pay, local stdio MCP server with 7 tools. Python, Apache-2.0, unaudited.
 
 ---
 
