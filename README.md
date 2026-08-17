@@ -80,6 +80,7 @@ Think: “Buy me the best noise-cancelling headphones under $300 that ship in 2 
 - **Protocol layer** (e.g. Agentic Commerce Protocol proposals)
 - **[Agent Payments Landscape](https://github.com/goodmeta/agent-payments-landscape)** – Living comparison of AP2, ACP, x402, MPP, and UCP across authorization, commerce, and settlement layers. Verified sources, protocol stack diagram.
 - **[Agent Verifier](https://github.com/goodmeta/agent-verifier)** – Spending verification for AI agents. Policy-based constraints, AP2 mandate validation, and budget enforcement. TypeScript, npm published.
+- **[Colombia TRM](https://x402.lagaceta.net/trm)** – Official Superintendencia Financiera USD/COP as a prepaid x402 API ($0.005 USDC on Base).
 - **[Add your favorite tool here via PR!](#contributing)**
 
 ---
