@@ -80,6 +80,7 @@ Think: “Buy me the best noise-cancelling headphones under $300 that ship in 2 
 - **Protocol layer** (e.g. Agentic Commerce Protocol proposals)
 - **[Agent Payments Landscape](https://github.com/goodmeta/agent-payments-landscape)** – Living comparison of AP2, ACP, x402, MPP, and UCP across authorization, commerce, and settlement layers. Verified sources, protocol stack diagram.
 - **[Agent Verifier](https://github.com/goodmeta/agent-verifier)** – Spending verification for AI agents. Policy-based constraints, AP2 mandate validation, and budget enforcement. TypeScript, npm published.
+- **[PrismAgenticPay](https://github.com/insightitsGit/prismagenticpay)** – Self-hosted policy-authority kernel for agent payments: verifies signed AP2 mandates, evaluates enterprise spending policy (dual approval, vendor allowlists, session/daily budgets), reserves budget with hold/settle reconciliation, and issues signed authorization decisions before Stripe capture. MIT, Python, [PyPI](https://pypi.org/project/prismagenticpay/).
 - **[Add your favorite tool here via PR!](#contributing)**
 
 ---
