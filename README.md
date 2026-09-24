@@ -110,6 +110,7 @@ Think: “Buy me the best noise-cancelling headphones under $300 that ship in 2 
 - **[Google Universal Commerce Protocol (UCP)](https://developers.google.com/merchant/ucp/)** — Open standard co-developed with Walmart, Shopify, Etsy, Target, and Wayfair for agent-driven commerce
 - **[x402 Payment Protocol](https://www.x402.org/)** — HTTP-native micropayment protocol using the `402 Payment Required` status code, enabling agents to pay for API calls, content, and services programmatically with stablecoins — no API keys or subscriptions needed
 - **Machine Payments / Autonomous Agent Wallets** — Infrastructure for machine-to-machine payments where AI agents hold wallets, authorize transactions, and settle payments autonomously (e.g., [Crossmint agent wallets](https://blog.crossmint.com/embedded-agent-wallets/), [Coinbase AgentKit](https://github.com/coinbase/agentkit), [Stripe agent payments](https://docs.stripe.com/))
+- **[Nano (XNO)](https://docs.nano.org)** — Feeless, self-custodied layer-1 settlement rail with ~sub-second finality and 0 fee per transaction. No issuer can freeze or claw back a payment, and no gas or priority fee is needed. An exact-scheme x402 settlement implementation on `nano:mainnet` exists at [x402nano/exact](https://github.com/x402nano/exact) (facilitator: [x402nano/facilitator](https://github.com/x402nano/facilitator); Python: [pursekeeper/x402-nano-exact](https://github.com/pursekeeper/x402-nano-exact)).
 
 - **[Add your case study or experiment here via PR!](#contributing)**
 
