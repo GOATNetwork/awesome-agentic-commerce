@@ -71,6 +71,7 @@ Think: “Buy me the best noise-cancelling headphones under $300 that ship in 2 
 
 (Feel free to add new entries)
 
+- **[Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node)** – Local macOS CLI and stdio MCP payments with foreground owner approval for signing.
 - **LangGraph / LangChain** – Agent orchestration
 - **AutoGen / CrewAI / MetaGPT** – Multi-agent collaboration
 - **Camel-AI** – Role-playing agent frameworks
